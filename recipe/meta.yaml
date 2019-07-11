@@ -1,5 +1,5 @@
 {% set name = "pytest-clarity" %}
-{% set version = "0.1.0a1" %}
+{% set version = "0.2.0a1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d6a36310e1babd019feed33d047284d129f05104cd78eb6e0d22d841839ebfb
+  sha256: 3f40d5ae7cb21cc95e622fc4f50d9466f80ae0f91460225b8c95c07afbf93e20
 
 build:
   noarch: python
